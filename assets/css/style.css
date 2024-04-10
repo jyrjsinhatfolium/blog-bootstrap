@@ -1,0 +1,30 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.blog-link{
+    text-decoration: none;
+    color: black;
+}
+
+.blog-link:hover{
+    color: black;
+}
+
+.blog:hover{
+    background-color: #F6F8FB;
+}
+
+/* Hover effect for .blog-link */
+@media (hover: hover) and (pointer: fine) {
+    .blog-link:hover {
+        color: black;
+    }
+}
+
+/* Hover effect for .blog */
+@media (hover: hover) and (pointer: fine) {
+    .blog:hover {
+        background-color: #F6F8FB;
+    }
+}
