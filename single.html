@@ -13,8 +13,8 @@
   <body class="d-flex flex-column min-vh-100">
     <header>
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4 p-3">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Logo</a>
+        <div class="container">
+          <a class="navbar-brand" href="#">𝒥𝒶𝓎𝓇𝒶𝒿𝓈𝒾𝓃𝒽'𝓈 ℬ𝓁𝑜𝑔</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -32,7 +32,7 @@
           >
             <ul class="navbar-nav mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
+                <a class="nav-link" aria-current="page" href="#"
                   >Laravel</a
                 >
               </li>
@@ -48,51 +48,75 @@
       </nav>
     </header>
 
-    <main class="container mt-1 mb-5">
-         <div class="d-flex justify-content-start mb-3">
-        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+   <main class="container mt-1 mb-5">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <nav style="--bs-breadcrumb-divider: '<';" aria-label="breadcrumb">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="/blog-bootstrap/">Home</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Library</li>
+                <li class="breadcrumb-item"></li>
+                <li class="breadcrumb-item active" aria-current="page"><a href="/blog-bootstrap/" class="text-dark">Back</a></li>
             </ol>
         </nav>
+    </div>
+
+    <section class="blog-detail">
+        <div class="row">
+              <div div class="col-md-12">
+                <div class="blog-title-info mb-1">
+                    <h2 class="fw-bold fs-3">Javascript: How to split String to character array into character array</h2>
+                    <small class="text-secondary fs-5">by Jayrajsinh Solanki on June 12, 2024</small>
+                </div>
+              <hr />
+              </div>
+
+              <div class="col-md-12 fs-4">
+                <strong>Start</strong>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut, aliquam earum alias voluptatum eligendi provident tenetur numquam deleniti amet officia sint laboriosam delectus atque voluptate voluptates est ipsum possimus praesentium neque nobis quia. Sunt sit quo veritatis perspiciatis officia voluptatem eum fugit corporis accusantium ullam inventore porro ratione quas quam rem cumque quia, assumenda minima. Est vitae, sit asperiores illo eum provident dignissimos deleniti consectetur accusantium aspernatur eligendi veniam debitis labore totam cupiditate minus repellat assumenda saepe excepturi. Quidem, hic incidunt veritatis inventore id iste sint recusandae repellendus doloribus ducimus quasi a possimus libero assumenda optio at aut, odio veniam!</p>
+                <pre>
+                  <code>&lt?php echo "test"; ?></code>
+                </pre>
+
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde, tenetur.</p>
+
+                <ul>
+                  <li>Lorem ipsum dolor sit.</li>
+                  <li>Lorem ipsum dolor sit.</li>
+                  <li>Lorem ipsum dolor sit.</li>
+                  <li>Lorem ipsum dolor sit.</li>
+                  <li>Lorem ipsum dolor sit.</li>
+                </ul>
+                
+                <pre>
+                  <code>jQuery(document).ready(function(){alert("test");});</code>
+                </pre>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, facilis!</p>
+
+              </div>
         </div>
+    </section>
+</main>
 
-      <div class="blog-title-info mb-4">
-        <h2>Javascript: How to split String to character array into character array</h2>
-        <small class="text-secondary"
-          >by Jayrajsinh Solanki on June 12,2024</small
-        >
-      </div>
-      <hr />
-      
-    </main>
 
-    <footer class="bg-dark mt-auto p-5">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-12">
-            <div class="text-white text-center mb-4">
-              Follow me on social media:
+
+  <footer class="bg-dark mt-auto p-3">
+    <div class="container">
+        <div class="row justify-content-between align-items-center">
+            <div class="col-md-auto mb-3 mb-md-0 text-center text-md-start">
+                <div class="text-light">
+                    Copyright © 2024 — Jayrajsinh Solanki
+                </div>
             </div>
-          </div>
-          <div class="col-auto">
-            <a href="#" class="text-white me-3"
-              ><i class="fab fa-github fa-lg"></i
-            ></a>
-            <a href="#" class="text-white me-3"
-              ><i class="fab fa-facebook-f fa-lg"></i
-            ></a>
-            <a href="#" class="text-white me-3"
-              ><i class="fab fa-instagram fa-lg"></i
-            ></a>
-            <a href="#" class="text-white"
-              ><i class="fab fa-linkedin-in fa-lg"></i
-            ></a>
-          </div>
+            <div class="col-md-auto text-center text-md-end">
+                <a href="#" class="text-light me-3 text-decoration-none">Github</i></a>
+                <a href="#" class="text-light me-3 text-decoration-none">Linkedin</a>
+                <a href="#" class="text-light me-3 text-decoration-none">Twitter</a>
+                <a href="#" class="text-light text-decoration-none">Instagram</a>
+            </div>
         </div>
-      </div>
-    </footer>
+    </div>
+</footer>
+
+
 
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/font-awasome.min.js"></script>
