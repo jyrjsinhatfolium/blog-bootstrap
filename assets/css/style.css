@@ -28,3 +28,7 @@ body {
         background-color: #F6F8FB;
     }
 }
+
+pre code{
+  border-radius: 10px;
+}
